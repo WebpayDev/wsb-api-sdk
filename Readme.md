@@ -11,7 +11,7 @@ To use the SDK
 
 # Usage
 
-Send request on http://wsbill.wp.lo/WSBApi
+Send request on https://sandbox.webpay.by/WSBApi
 
 
 
