@@ -17,7 +17,7 @@ Send request on https://sandbox.webpay.by/WSBApi
 - RefundRequest
 ```php
         $response = (new RefundRequest(self::HOST, self::LOGIN, self::PASSWORD, self::BILLING_ID))
-            ->setAmount('5.00')
+            ->setAmount('6.00')
             ->setCurrency(Currency::BYN)
             ->setTransactionId('956424424')
             ->setReason('by client request')
