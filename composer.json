@@ -1,5 +1,5 @@
 {
-    "name": "webpayby/wsb_api",
+    "name": "webpayby/webpayby-wsb-api",
     "description": "SDK for integration with Webpay",
     "type": "library",
     "require": {
