@@ -1,6 +1,6 @@
 <?php
 
-namespace Webpay\WsbApi;
+namespace Webpayby\WsbApi;
 
 use Exception;
 

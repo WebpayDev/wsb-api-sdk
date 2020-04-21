@@ -1,15 +1,15 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Request;
+namespace Webpayby\WsbApi\Request;
 
-use Webpay\WsbApi\Response\TransactionStatusResponse;
-use Webpay\WsbApi\Response\ResponseInterface;
-use Webpay\WsbApi\TransactionException;
+use Webpayby\WsbApi\Response\TransactionStatusResponse;
+use Webpayby\WsbApi\Response\ResponseInterface;
+use Webpayby\WsbApi\TransactionException;
 
 /**
  * Class GetTransactionStatusRequest
- * @package Webpay\WsbApi\Request
+ * @package Webpayby\WsbApi\Request
  */
 class GetTransactionStatusRequest extends Request
 {

@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Response;
+namespace Webpayby\WsbApi\Response;
 
 /**
  * Class Response
- * @package Webpay\WsbApi\Response
+ * @package Webpayby\WsbApi\Response
  */
 class Response implements ResponseInterface
 {

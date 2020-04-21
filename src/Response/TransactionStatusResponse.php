@@ -1,13 +1,13 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Response;
+namespace Webpayby\WsbApi\Response;
 
-use Webpay\WsbApi\TransactionStatusStruct;
+use Webpayby\WsbApi\TransactionStatusStruct;
 
 /**
  * Class TransactionStatusResponse
- * @package Webpay\WsbApi\Response
+ * @package Webpayby\WsbApi\Response
  */
 class TransactionStatusResponse implements ResponseInterface
 {

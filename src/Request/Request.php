@@ -1,15 +1,15 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Request;
+namespace Webpayby\WsbApi\Request;
 
-use Webpay\WsbApi\Client;
-use Webpay\WsbApi\ClientInterface;
-use Webpay\WsbApi\Response\ResponseInterface;
+use Webpayby\WsbApi\Client;
+use Webpayby\WsbApi\ClientInterface;
+use Webpayby\WsbApi\Response\ResponseInterface;
 
 /**
  * Class Request
- * @package Webpay\WsbApi\Request
+ * @package Webpayby\WsbApi\Request
  */
 abstract class Request
 {

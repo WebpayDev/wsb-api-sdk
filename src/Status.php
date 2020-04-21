@@ -1,11 +1,11 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi;
+namespace Webpayby\WsbApi;
 
 /**
  * Class Status
- * @package Webpay\WsbApi
+ * @package Webpayby\WsbApi
  */
 final class Status
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Webpay\WsbApi;
+namespace Webpayby\WsbApi;
 
 use SoapClient;
 
 /**
  * Class Client
- * @package Webpay\WsbApi
+ * @package Webpayby\WsbApi
  */
 class Client extends SoapClient implements ClientInterface
 {

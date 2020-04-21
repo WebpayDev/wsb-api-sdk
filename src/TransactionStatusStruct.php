@@ -1,13 +1,13 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi;
+namespace Webpayby\WsbApi;
 
 use InvalidArgumentException;
 
 /**
  * Class TransactionStatusStruct
- * @package Webpay\WsbApi
+ * @package Webpayby\WsbApi
  */
 class TransactionStatusStruct
 {

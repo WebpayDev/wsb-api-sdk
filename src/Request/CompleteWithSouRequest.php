@@ -1,15 +1,15 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Request;
+namespace Webpayby\WsbApi\Request;
 
-use Webpay\WsbApi\Response\Response;
-use Webpay\WsbApi\Response\ResponseInterface;
-use Webpay\WsbApi\TransactionException;
+use Webpayby\WsbApi\Response\Response;
+use Webpayby\WsbApi\Response\ResponseInterface;
+use Webpayby\WsbApi\TransactionException;
 
 /**
  * Class CompleteWithSouRequest
- * @package Webpay\WsbApi\Request
+ * @package Webpayby\WsbApi\Request
  */
 class CompleteWithSouRequest extends Request
 {

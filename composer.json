@@ -1,5 +1,5 @@
 {
-    "name": "webpay/wsb_api",
+    "name": "webpayby/wsb_api",
     "description": "SDK for integration with Webpay",
     "type": "library",
     "require": {
@@ -11,12 +11,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Webpay\\WsbApi\\": "src/"
+            "Webpayby\\WsbApi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Webpay\\WsbApi\\Tests\\": "tests/"
+            "Webpayby\\WsbApi\\Tests\\": "tests/"
         }
     }
 }

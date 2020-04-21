@@ -1,10 +1,10 @@
 <?php
 declare(strict_types = 1);
 
-namespace Webpay\WsbApi\Request;
+namespace Webpayby\WsbApi\Request;
 
 use InvalidArgumentException;
-use Webpay\WsbApi\Currency;
+use Webpayby\WsbApi\Currency;
 
 /**
  * Trait TransactionTrait

@@ -1,15 +1,15 @@
 <?php
 
-namespace Webpay\WsbApi\Tests\Request;
+namespace Webpayby\WsbApi\Tests\Request;
 
 use PHPUnit\Framework\TestCase;
-use Webpay\WsbApi\Currency;
-use Webpay\WsbApi\Request\CancelRequest;
-use Webpay\WsbApi\Request\CompleteRequest;
-use Webpay\WsbApi\Request\CompleteWithSouRequest;
-use Webpay\WsbApi\Request\GetTransactionStatusRequest;
-use Webpay\WsbApi\Request\RefundRequest;
-use Webpay\WsbApi\Response\ResponseInterface;
+use Webpayby\WsbApi\Currency;
+use Webpayby\WsbApi\Request\CancelRequest;
+use Webpayby\WsbApi\Request\CompleteRequest;
+use Webpayby\WsbApi\Request\CompleteWithSouRequest;
+use Webpayby\WsbApi\Request\GetTransactionStatusRequest;
+use Webpayby\WsbApi\Request\RefundRequest;
+use Webpayby\WsbApi\Response\ResponseInterface;
 
 class RequestTest extends TestCase
 {
