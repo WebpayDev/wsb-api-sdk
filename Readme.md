@@ -1,7 +1,6 @@
 # General information
 - PHP 7.1 or above
 - You need Webpay account mail us on managers@webpay.by
-- Set the secretKey in Web ui https://sandbox.webpay.by
 
 # Installation
 
@@ -62,17 +61,4 @@ Send request on https://sandbox.webpay.by/WSBApi
             ->setStartMonth('01')
             ->send();
 ```
-
-# Test data
-
-- SecretKey – set in web ui https://sandbox.webpay.by
-- login - sent in mail
-- password - sent in mail
-- wsb_storeid:	sent in mail 
-- Test card
-type: VISA
-434179xxxxxx0051
-CVV/CVC2: any 
-Exp: MM/YY (any) – common cases
-Exp: 12/YY – error cases
 
