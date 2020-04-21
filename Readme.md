@@ -6,9 +6,8 @@
 #Installation
 
 To use the SDK
-'''php
 
-'''
+    composer require webpayby/wsb_api    
 
 #Usage
 
