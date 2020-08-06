@@ -20,17 +20,19 @@ abstract class Request
 
     /**
      * Request constructor.
+     *
      * @param string $host
      * @param string $login
      * @param string $password
      * @param string $billingId
+     * @param bool   $encryptedPassword
      */
-    public function __construct(string $host, string $login, string $password, string $billingId)
+    public function __construct(string $host, string $login, string $password, string $billingId, bool $encryptedPassword = false)
     {
         $this
             ->setEndpointApi($host)
             ->setLogin($login)
-            ->setPassword($this->encrypt($password))
+            ->setPassword($encryptedPassword ? $password : $this->encrypt($password))
             ->setBillingId($billingId);
     }
 
