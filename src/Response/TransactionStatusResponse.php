@@ -45,11 +45,13 @@ class TransactionStatusResponse implements ResponseInterface
     public function build(array $param): ResponseInterface
     {
         $this->errorComment = $param['error_comment'];
-        $this->errorCode = $param['error_code'];
-        $this->transaction = array_map(static function ($values) {
-            return (new TransactionStatusStruct())->build((array)$values);
-        }, $param['transaction']);
-
+        $this->errorCode    = $param['error_code'];
+        $this->transaction  = [];
+        if (isset($param['transaction'])) {
+            $this->transaction = array_map(static function ($values) {
+                return (new TransactionStatusStruct())->build((array)$values);
+            }, $param['transaction']);
+        }
 
         return $this;
     }
